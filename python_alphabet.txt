@@ -1,0 +1,8 @@
+for row in range(0,7):
+    for col in range(5):
+        a=(row==0)|(row==6)|(col==0)|(col==4)
+        if a:
+            print("0",end="")
+        else:
+            print(end=" ")
+    print()
